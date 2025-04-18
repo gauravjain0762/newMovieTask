@@ -36,6 +36,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "c40cdb2c-713d-40a5-a18a-058e589e3c08"
+      }
+    },
+    "owner": "ritva_19"
   }
 }
