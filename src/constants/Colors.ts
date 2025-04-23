@@ -11,5 +11,6 @@ export const Colors = {
   bg_color: "#171717",
   _1e1e1e: "#1e1e1e",
   _787878: "#787878",
-  headerColor:"tomato"
+  headerColor:"tomato",
+  _a3a3a3:"#a3a3a3",
 };
