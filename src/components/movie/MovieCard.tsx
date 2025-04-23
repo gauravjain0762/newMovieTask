@@ -5,22 +5,9 @@ import {
   SCREEN_HEIGHT,
   SCREEN_WIDTH,
 } from "@/src/constants/fonts";
-import { Movie } from "@/src/constants/types";
+import { MovieCardProps } from "@/src/constants/types";
 import { imageUrl } from "@/src/lib/moviesdb";
-import {
-  TouchableOpacity,
-  Image,
-  Text,
-  View,
-  StyleSheet,
-  GestureResponderEvent,
-} from "react-native";
-
-// Props interface
-interface MovieCardProps {
-  movie: Movie;
-  onPress: (event: GestureResponderEvent) => void;
-}
+import { TouchableOpacity, Image, Text, View, StyleSheet } from "react-native";
 
 export default function MovieCard({ movie, onPress }: MovieCardProps) {
   return (
