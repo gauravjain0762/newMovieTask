@@ -1,3 +1,5 @@
+import { GestureResponderEvent } from "react-native";
+
 // types/Movie.ts
 export interface Movie {
     id: number;
@@ -60,4 +62,9 @@ export interface MovieDetails {
 
 export interface MovieParam {
   item: any; // JSON string, will be parsed
+}
+
+export interface MovieCardProps {
+  movie: Movie;
+  onPress: (event: GestureResponderEvent) => void;
 }
